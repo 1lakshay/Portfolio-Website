@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Poppins:wght@200;600&family=Sigmar&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <title>Portfolio website </title>
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Lakshay's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,
+                <div>My name is <span class="purple">Lakshay</span> 
+                Welcome to my portfolio website</div>
+                <div>I am a </div>
+                <span id="element"></span>         <!--in place where to see the animation -->
+            </div>
+            <div class="rightsection">
+                <img src="img/wepik-export-202305220738260tTb.png" alt="loading">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            
+            <span class="text-gray">what i have done so far</span>
+            <h1>Past Experience</h1>
+            <div class="box">
+                <ul>
+                    <li><a href="#">Delivered Python Based application to Snasta footwear Pvt Ltd</a></li>
+                    <li><a href="#">Created Fully responsive website </a></li>
+                    <li><a href="#">Made a blog using Flask</a></li>
+                </ul>
+            </div>
+        </section>
+    <hr>
+
+        <section class="thirdsection">
+<h1> Skills </h1>
+<div class="box">
+to be fetched using for loop from database
+</div>     
+</section>
+        
+    </main>
+    
+    <footer>
+        <div class="left">
+                <h3>Lakshay's portfolio</h3>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact me</a></li>
+            </ul>
+        </div>
+        <div class="mid">
+            <div>
+            Copyright &copy; lakshayportfolio.com | All rights reserved
+        </div>
+    </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>   <!--to start cdn of typed .js whyich is typed animation-->
+    
+    <script>             
+        var typed = new Typed('#element', {     /* THIS IS SCRIPT TAGE FOR TYPED JS */
+          strings: ['Python developer', 'Front end developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
